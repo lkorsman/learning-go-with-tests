@@ -18,6 +18,6 @@ func Server(store Store) http.HandlerFunc {
 			return // todo: log however I like
 		}
 
-		fmt.Print(w, data)
+		fmt.Fprint(w, data)
 	}
 }
